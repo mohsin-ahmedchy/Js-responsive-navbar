@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!--add css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo">Mohsin Ahmed</a>
+        <ion-icon name="menu-outline" class="header__toggle" id="nav__social-icon"></ion-icon>
+        <nav class="nav" id="nav__menu">
+            <div class="nav__content bd-grid">
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                <!--navbar perfil start-->
+                <div class="nav__perfil">
+                    <div class="nav__img">
+                        <img src="img/mohsin.jpg" alt="hello">
+                    </div>
+                    <div>
+                        <a href="#" class="nav__name">Mohsin Ahmed</a>
+                        <span class="nav__profession">Web-designer</span>
+                    </div>
+
+                </div> 
+                <!--navbar perfil end-->
+
+                <!--navbar-menu start-->
+                <div class="nav__menu">
+                    <ul class="nav__li">
+                        <li class="nav__items"><a href="#" class="nav__link active">Home</a></li>
+                        <li class="nav__items"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__items"><a href="#" class="nav__link">Portfolio</a></li>
+                        <li class="nav__items"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+
+                </div>
+                <!--navbar-menu end-->
+            
+                <!--social icons start-->
+            <div class="nav__social">
+                <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#" class="nav__social-icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+                
+            </div>
+                <!--social icons end-->
+            </div>     
+        </nav>
+    </header>
+
+<!--lonicons js-->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<!--js link-->
+    <script src="index.js"></script>
+</body>
+</html>
